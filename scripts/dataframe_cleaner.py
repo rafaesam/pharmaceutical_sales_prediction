@@ -22,15 +22,13 @@
 """
 
 from dataclasses import replace
+import logging
 import numpy as np
 import pandas as pd
 from sqlalchemy import column
-# For logging we'll use those import and functions later!
-# from log import get_logger
+from logging import getLogger
 
-# my_logger = get_logger("DfCleaner")
-# my_logger.debug("Loaded successfully!")
-
+logging.getLogger("dataframe_cleaner")
 
 class DfCleaner():
 	"""

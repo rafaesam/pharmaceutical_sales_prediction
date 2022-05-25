@@ -11,10 +11,9 @@ Number of functions :  5
 
 import pandas as pd
 import numpy as np
-# from log import get_logger
+import logging
+from logging import getLogger
 
-# my_logger = get_logger("DfOutlier")
-# my_logger.debug("Loaded successfully!")
 
 class DfOutlier:
   """
@@ -62,7 +61,7 @@ class DfOutlier:
       self.df[col] = np.where(self.df[col] > upper, upper, self.df[col])
       self.df[col] = np.where(self.df[col] < lower, lower, self.df[col])
 
-  def outliers_Overview(self) -> None:
+  def outliers_overview(self) -> None:
 
     _labels = [column for column in self.df]
     Q1 = self.df.quantile(0.25)
