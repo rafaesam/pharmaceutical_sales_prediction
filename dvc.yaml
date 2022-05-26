@@ -1,0 +1,5 @@
+stages:
+  first:
+    cmd: stage .\scripts\dataframe_cleaner.py
+  prepare:
+    cmd: .\scripts\dataframe_cleaner.py
