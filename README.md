@@ -42,7 +42,7 @@ This is a brief description of what data columns represent:
 # Installation
 ### Step 1: Downloading source code
 ```
-git clone 
+git clone https://github.com/rafaesam/pharmaceutical_sales_prediction.git
 ```
 ### Step 2: Installation of dependencies
 ```
@@ -58,14 +58,7 @@ dvc dag
 ```
 
 # The tests from the modularized scripts are run in the following notebooks
-* EDA analysis ==> notebooks/EDA.ipynb
-* Classical AB test ==> notebooks/AB_Testing.ipynb
-* Sequential Test ==> notebooks/Sequential_AB_Testing.ipynb
-* Machine learning ==> notebooks/Modeling.ipynb
+* EDA analysis -----> notebooks/exploratory_data_analysis.ipynb
+* TSA analysis -----> notebooks/
 
 # Data
-The BIO data for this project is a “Yes” and “No” response of online users to the following question
-Q: Do you know the brand LUX?
-
-	1. Yes
-	2. No
