@@ -1,4 +1,0 @@
-schema: '2.0'
-stages:
-  prepare:
-    cmd: .\scripts\dataframe_cleaner.py

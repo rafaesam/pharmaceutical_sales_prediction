@@ -13,6 +13,7 @@ import logging
 from logging import getLogger
 
 logging.getLogger("dataframe_overview")
+logging.debug("Yes it's working now!")
 
 class DfOverview():
   """

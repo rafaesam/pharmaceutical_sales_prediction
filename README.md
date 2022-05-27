@@ -26,3 +26,46 @@ This is a brief description of what data columns represent:
 * Promo2 : Promo2 is a continuing and consecutive promotion for some stores: 0 = store is not participating, 1 = store is participating <br />
 * Promo2Since[Year/Week] : describes the year and calendar week when the store started participating in Promo2 <br />
 * PromoInterval : describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store <br />
+
+
+# Skills implemented in the project:
+* Statistical and Machine Learning Modelling
+* Data science python libraries pandas, matplotlib, seaborn, scikit-learn
+* Time Series Analysis __TSA__
+* Long short term memory __LSTM__
+* 
+
+# ML Pipeline design/setup
+![image]()
+
+
+# Installation
+### Step 1: Downloading source code
+```
+git clone 
+```
+### Step 2: Installation of dependencies
+```
+pip install -r requirements.txt
+```
+### Step 3: Check notebook
+```
+jupyter notebook
+```
+### Step 4: Visualize ML Pipeline
+```
+dvc dag
+```
+
+# The tests from the modularized scripts are run in the following notebooks
+* EDA analysis ==> notebooks/EDA.ipynb
+* Classical AB test ==> notebooks/AB_Testing.ipynb
+* Sequential Test ==> notebooks/Sequential_AB_Testing.ipynb
+* Machine learning ==> notebooks/Modeling.ipynb
+
+# Data
+The BIO data for this project is a “Yes” and “No” response of online users to the following question
+Q: Do you know the brand LUX?
+
+	1. Yes
+	2. No
