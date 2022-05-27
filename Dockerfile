@@ -21,4 +21,4 @@ COPY . /app/
 RUN ls -la /app/
 EXPOSE 5000
 RUN pip3 install -r requirements.txt
-ENTRYPOINT mlflow run /app/ -P n_folds=5 --run-name=abtest --env-manager=local && mlflow ui
+ENTRYPOINT mlflow run /app/ -P n_folds=5 --run-name=tsa --env-manager=local && mlflow ui

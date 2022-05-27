@@ -1,4 +1,4 @@
-name: abtest-ml
+name: tsa-ml
 on: [push]
 jobs:
   run:
