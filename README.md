@@ -59,6 +59,6 @@ dvc dag
 
 # The tests from the modularized scripts are run in the following notebooks
 * EDA analysis -----> notebooks/exploratory_data_analysis.ipynb
-* TSA analysis -----> notebooks/
+* TSA analysis -----> notebooks/time_series_analysis.ipynb
 
 # Data
