@@ -1,6 +1,0 @@
-[core]
-    remote = myremote
-['remote "storage"']
-    url = s3://mybucket/dvcstore
-['remote "myremote"']
-    url = /path/to/remote

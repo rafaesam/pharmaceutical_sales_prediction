@@ -1,0 +1,9 @@
+stages:
+  prepare:
+    cmd: .\data\
+  preprocessing:
+    cmd: .\notebooks\preprocessing_data.ipynb
+  EDA:
+    cmd: .\notebooks\exploratory_data_analysis.ipynb
+  TSA:
+    cmd: .\notebooks\time_series_analysis.ipynb
