@@ -7,7 +7,6 @@ Number of functions :  4
     percentage
     getOverview
 """
-
 import pandas as pd
 import logging
 from logging import getLogger
