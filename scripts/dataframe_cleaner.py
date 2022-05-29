@@ -26,9 +26,10 @@ import logging
 import numpy as np
 import pandas as pd
 from sqlalchemy import column
-from logging import getLogger
+from log import get_logger
 
-logging.getLogger("dataframe_cleaner")
+my_logger = get_logger("DfOverview")
+my_logger.debug("Loaded successfully!")
 
 class DfCleaner():
 	"""
