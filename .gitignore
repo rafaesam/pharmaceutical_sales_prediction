@@ -5,4 +5,3 @@ data/*
 !data/data.csv
 env/
 .env
-/data
